@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <input type="tel" id="input">
+        <div id="conatiner">
+            <button onclick="reset()" id="AC">AC</button>
+            <button onclick="deleteElement()" id="D">D</button>
+            <button onclick="getData('+')" id="+">+</button>
+            <button onclick="getData('-')" id="-">-</button>
+            <button onclick="getData('9')" id="9">9</button>
+            <button onclick="getData('8')" id="8">8</button>
+            <button onclick="getData('7')" id="7">7</button>
+            <button onclick="getData('x')" id="x">x</button>
+            <button onclick="getData('6')" id="6">6</button>
+            <button onclick="getData('5')" id="5">5</button>
+            <button onclick="getData('4')" id="4">4</button>
+            <button onclick="getData('/')" id="/">/</button>
+            <button onclick="getData('3')" id="3">3</button>
+            <button onclick="getData('2')" id="2">2</button>
+            <button onclick="getData('1')" id="1">1</button>
+            <button onclick="getData('^')" id="^">^</button>
+            <button onclick="getData('0')" id="0">0</button>
+            <button onclick="getData('00')" id="00">00</button>
+            <button onclick="getData('.')" id=".">.</button>
+            <button onclick="output()">=</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
